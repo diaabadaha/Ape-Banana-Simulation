@@ -1,0 +1,43 @@
+# Menu Configuration File
+# Format:
+# [MENU_ITEM]
+# id=<number>
+# text=<display text>
+# function=<function_name>
+# enabled=<true/false>
+
+[MENU_ITEM]
+id=1
+text=Run Simulation (Terminal Only)
+function=run_threading_mode
+enabled=true
+
+[MENU_ITEM]
+id=2
+text=Run Simulation (With GUI)
+function=run_gui_mode
+enabled=true
+
+[MENU_ITEM]
+id=3
+text=Configure Parameters
+function=edit_config
+enabled=true
+
+[MENU_ITEM]
+id=4
+text=Generate Random Maze
+function=generate_random_maze
+enabled=true
+
+[MENU_ITEM]
+id=5
+text=Exit
+function=exit_program
+enabled=true
+
+[MENU_ITEM]
+id=6
+text=Save Current Maze
+function=save_current_maze
+enabled=true
